@@ -1,0 +1,23 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  font-family: sans-serif;
+  color: #444;
+  letter-spacing: 1px;
+}
+h1,
+h2 {
+  font-weight: normal;
+}
+
+#movies-group {
+  border: 1px solid rgb(44, 42, 42);
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 6px;
+  box-shadow: -20px 50px 200px aqua;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+
+.search-movie {
+}
