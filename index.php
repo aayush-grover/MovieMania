@@ -3,7 +3,7 @@
     $movies = json_decode($moviesJson, true);
 
     $title = 'Movie Mania';
-    $totalTask = count($movies);
+    $moviesCount = count($movies);
 ?>
 
 <!DOCTYPE html>
@@ -14,12 +14,16 @@
 </head>
 <body>
     <div id="movies-group">
-            <header id="page-banner">
-                <p>Movies for everyone</p>
+            <header id="header">
+                <h1 class="title"><?php echo $title; ?></h1>
+                <p>Movies to watch</p>
+                <form class="search-movie">
+                    <input type="text" placeholder="Search Movies...">
+                </form>
             </header>
 
             <div id="movie-list">
-                <h2 class="title">Movies to watch</h2>
+                <h2 class="title">Watchlist</h2>
                 <ul>
                     <?php foreach($movies as $movie) { ?>
                         <li>
@@ -28,7 +32,7 @@
                         </li>
                     <?php } ?>
                 </ul>
-            </div>  
+            </div>
     </div>
 </body>    
 </html>

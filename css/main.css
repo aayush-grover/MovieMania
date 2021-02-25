@@ -1,22 +1,46 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 body {
-  font-family: sans-serif;
+  font-family: "Lobster", cursive;
   color: #444;
   letter-spacing: 1px;
 }
 h1,
-h2 {
+h2,
+p {
   font-weight: normal;
+  text-align: center;
+}
+
+span,
+label {
+  font-family: Georgia, "Times New Roman", Times, serif !important;
 }
 
 #movies-group {
   border: 1px solid rgb(44, 42, 42);
-  width: 90%;
-  margin: 20px auto;
+  max-width: 90%;
+  margin: 40px auto;
   border-radius: 6px;
   box-shadow: -20px 50px 200px aqua;
   padding-bottom: 20px;
   overflow: hidden;
+}
+
+#header {
+  background: #d3d3d3;
+  padding: 10px 0;
+  text-align: center;
+}
+
+#header input {
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  padding: 8px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  font-size: 16px;
 }
 
 .search-movie {
