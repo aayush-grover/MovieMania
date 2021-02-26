@@ -33,6 +33,15 @@
                     <?php } ?>
                 </ul>
             </div>
+
+            <div id="add-movie">
+                <form>
+                    <input type="checkbox" id="hide">
+                    <label for="hide">Hide the List</label>
+                    <input type="text" placeholder="Add a movie">
+                    <button>Add</button>
+                </form>   
+            </div>  
     </div>
 </body>    
 </html>

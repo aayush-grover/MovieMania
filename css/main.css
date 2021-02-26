@@ -17,6 +17,10 @@ label {
   font-family: Georgia, "Times New Roman", Times, serif !important;
 }
 
+ul {
+  list-style: none;
+}
+
 #movies-group {
   border: 1px solid rgb(44, 42, 42);
   max-width: 90%;
@@ -43,5 +47,52 @@ label {
   font-size: 16px;
 }
 
-.search-movie {
+li {
+  padding: 20px;
+  border-left: 5px solid rgb(212, 210, 210);
+  margin: 20px 100px;
+}
+
+.delete {
+  float: right;
+  background: rgb(160, 72, 160);
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.delete:hover {
+  background: rgb(66, 65, 65);
+}
+
+#add-movie {
+  width: 400px;
+  margin: 0 auto;
+}
+
+#add-movie input[type="text"] {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  border-radius: 4px;
+  width: 300px;
+  float: left;
+}
+
+#hide {
+  margin-left: 70px;
+}
+
+#add-movie button {
+  border: 1px solid rgb(160, 72, 160);
+  background: rgb(167, 64, 167);
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+  margin: 2px 100px;
+  color: white;
 }
